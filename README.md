@@ -1,1 +1,2 @@
-# arduino-files
+# Arduino Files
+`esp32_servo_joystick.ino` and `esp32_test_servo_wifi_ap.ino` enable joystick control of a differential drive robot with communication enabled by ESP-NOW. Joystick is a single playstation-like 2-axis joystick with a switch signal included. The two axes are intended to map to the forward and angular velocities of the differential drive robot. The motors are continuous rotation servos, from the Parallax ActivityBot 360 platform. The encoder signals are monitored and ticks increment corresponding counters, but the counts is not used. 
